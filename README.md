@@ -55,12 +55,14 @@ raw_quotas          -->    stg_quotas          -->   mart_pipeline_funnel
 
 From the generated dataset (3,200 opportunities across 24 reps, 8 quarters):
 
-- **$40.4M** closed won ARR, **28.7%** overall win rate, **$13.1M** open pipeline.
-- **Enterprise inbound** is the largest revenue driver (~$8.2M won), but
-  **Mid-Market** converts at a higher rate (~27% vs ~20%) and closes about
-  **2x faster** (~80 day cycle vs ~160 for Enterprise).
+- **$39.7M** closed won ARR, **28.7%** overall win rate, **$13.0M** open pipeline.
+- A clean inverse between deal size and conversion: **Enterprise** drives the most
+  revenue (**$22.7M** won) but converts lowest (**19.8%**) and slowest (**159 day**
+  sales cycle), while **SMB** converts highest (**32.9%**) and closes in **~37 days**.
+- **Inbound** is the largest source by won ARR (**$12.4M**), but **Event** and
+  **Outbound** convert at higher rates (~31% and ~30%).
 - Quota attainment is realistic: median **80%**, with **21%** of rep quarters
-  hitting quota and top performers near **150%**.
+  hitting quota.
 
 ## Run it
 

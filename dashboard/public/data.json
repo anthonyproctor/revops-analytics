@@ -1,0 +1,161 @@
+{
+  "kpis": {
+    "won_arr": 39694700.0,
+    "open_pipeline": 13002000.0,
+    "total_opps": 3200,
+    "win_rate": 0.287,
+    "median_attainment": 0.796,
+    "pct_hit_quota": 0.213
+  },
+  "arr_by_quarter": [
+    {
+      "quarter": "2024-Q1",
+      "won_arr": 658500.0
+    },
+    {
+      "quarter": "2024-Q2",
+      "won_arr": 3019300.0
+    },
+    {
+      "quarter": "2024-Q3",
+      "won_arr": 6952900.0
+    },
+    {
+      "quarter": "2024-Q4",
+      "won_arr": 6103600.0
+    },
+    {
+      "quarter": "2025-Q1",
+      "won_arr": 5020200.0
+    },
+    {
+      "quarter": "2025-Q2",
+      "won_arr": 4451000.0
+    },
+    {
+      "quarter": "2025-Q3",
+      "won_arr": 6126100.0
+    },
+    {
+      "quarter": "2025-Q4",
+      "won_arr": 4916600.0
+    }
+  ],
+  "segment_perf": [
+    {
+      "segment": "Enterprise",
+      "win_rate": 0.198,
+      "won_arr": 22724300.0,
+      "avg_deal": 249718.0,
+      "avg_cycle": 159.0
+    },
+    {
+      "segment": "Mid-Market",
+      "win_rate": 0.251,
+      "won_arr": 10813500.0,
+      "avg_deal": 48930.0,
+      "avg_cycle": 80.0
+    },
+    {
+      "segment": "SMB",
+      "win_rate": 0.329,
+      "won_arr": 6156900.0,
+      "avg_deal": 10802.0,
+      "avg_cycle": 37.0
+    }
+  ],
+  "funnel_by_source": [
+    {
+      "lead_source": "Inbound",
+      "won_amount": 12444300.0,
+      "open_pipeline": 3260400.0,
+      "win_rate": 0.259
+    },
+    {
+      "lead_source": "Outbound",
+      "won_amount": 11500500.0,
+      "open_pipeline": 4539300.0,
+      "win_rate": 0.302
+    },
+    {
+      "lead_source": "Event",
+      "won_amount": 7176700.0,
+      "open_pipeline": 1860900.0,
+      "win_rate": 0.311
+    },
+    {
+      "lead_source": "Partner",
+      "won_amount": 4434600.0,
+      "open_pipeline": 2144700.0,
+      "win_rate": 0.291
+    },
+    {
+      "lead_source": "Referral",
+      "won_amount": 4138600.0,
+      "open_pipeline": 1196700.0,
+      "win_rate": 0.3
+    }
+  ],
+  "top_reps": [
+    {
+      "rep_name": "Parker Schmidt",
+      "won": 10778000.0,
+      "attainment": 0.884
+    },
+    {
+      "rep_name": "Elliot Mori",
+      "won": 9931400.0,
+      "attainment": 1.008
+    },
+    {
+      "rep_name": "Taylor Larsson",
+      "won": 1324700.0,
+      "attainment": 0.679
+    },
+    {
+      "rep_name": "Blake Fischer",
+      "won": 1130000.0,
+      "attainment": 0.75
+    },
+    {
+      "rep_name": "Cameron Cohen",
+      "won": 1070700.0,
+      "attainment": 0.706
+    },
+    {
+      "rep_name": "Reese Dubois",
+      "won": 1016900.0,
+      "attainment": 0.786
+    },
+    {
+      "rep_name": "Emerson Ibrahim",
+      "won": 998900.0,
+      "attainment": 0.694
+    },
+    {
+      "rep_name": "Casey Rossi",
+      "won": 975500.0,
+      "attainment": 0.643
+    },
+    {
+      "rep_name": "Hayden Novak",
+      "won": 837600.0,
+      "attainment": 0.615
+    },
+    {
+      "rep_name": "Avery Nguyen",
+      "won": 814400.0,
+      "attainment": 0.595
+    },
+    {
+      "rep_name": "Logan Reyes",
+      "won": 803600.0,
+      "attainment": 0.655
+    },
+    {
+      "rep_name": "Riley Garcia",
+      "won": 751400.0,
+      "attainment": 0.527
+    }
+  ]
+}
