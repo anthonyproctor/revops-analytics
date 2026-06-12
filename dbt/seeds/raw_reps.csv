@@ -1,0 +1,25 @@
+rep_id,rep_name,region,primary_segment,hire_date
+R001,Avery Nguyen,West,Mid-Market,2022-05-18
+R002,Jordan Patel,West,SMB,2023-05-07
+R003,Riley Garcia,East,Mid-Market,2023-06-07
+R004,Cameron Cohen,West,Mid-Market,2023-10-02
+R005,Morgan Okafor,West,SMB,2021-02-01
+R006,Taylor Larsson,East,Mid-Market,2022-10-21
+R007,Casey Rossi,East,Mid-Market,2020-11-11
+R008,Quinn Kim,Central,SMB,2020-08-13
+R009,Drew Mbeki,West,SMB,2023-01-10
+R010,Reese Dubois,Central,Mid-Market,2022-05-12
+R011,Sky Haddad,Central,SMB,2023-05-07
+R012,Devon Costa,West,SMB,2021-11-27
+R013,Hayden Novak,East,Mid-Market,2022-06-09
+R014,Emerson Ibrahim,East,Mid-Market,2021-05-06
+R015,Rowan Andersen,Central,SMB,2023-06-24
+R016,Logan Reyes,East,Mid-Market,2020-06-14
+R017,Parker Schmidt,Central,Enterprise,2020-09-06
+R018,Sawyer Walsh,West,SMB,2023-08-31
+R019,Blake Fischer,Central,Mid-Market,2023-06-22
+R020,Elliot Mori,West,Enterprise,2021-10-15
+R021,Marlowe Silva,East,SMB,2021-11-15
+R022,Shay Volkov,Central,SMB,2022-09-29
+R023,Tatum Adeyemi,East,Mid-Market,2020-04-14
+R024,Wren Park,East,SMB,2022-12-17

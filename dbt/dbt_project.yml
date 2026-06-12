@@ -1,0 +1,26 @@
+name: revops_analytics
+version: "1.0.0"
+config-version: 2
+profile: revops_analytics
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+seeds:
+  revops_analytics:
+    raw_opportunities:
+      +column_types:
+        amount: varchar
+        created_date: varchar
+        close_date: varchar
+        is_won: varchar
+        is_closed: varchar
+
+models:
+  revops_analytics:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

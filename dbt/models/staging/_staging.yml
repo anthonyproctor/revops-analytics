@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: stg_opportunities
+    description: Cleaned, typed opportunity records (one row per opportunity).
+    columns:
+      - name: opportunity_id
+        description: Primary key.
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_accounts')
+              field: account_id
+      - name: rep_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_reps')
+              field: rep_id
+      - name: stage
+        data_tests:
+          - accepted_values:
+              values: ["Prospecting", "Qualification", "Proposal", "Negotiation", "Closed Won", "Closed Lost"]
+      - name: amount
+        data_tests: [not_null]
+
+  - name: stg_accounts
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+      - name: segment
+        data_tests:
+          - accepted_values:
+              values: ["SMB", "Mid-Market", "Enterprise"]
+
+  - name: stg_reps
+    columns:
+      - name: rep_id
+        data_tests: [unique, not_null]
+
+  - name: stg_quotas
+    columns:
+      - name: rep_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_reps')
+              field: rep_id

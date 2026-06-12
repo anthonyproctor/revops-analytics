@@ -1,0 +1,7 @@
+revops_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: revops.duckdb
+      threads: 4

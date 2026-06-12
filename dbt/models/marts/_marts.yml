@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: fct_opportunities
+    description: Analysis-ready opportunity fact, enriched with account and rep attributes.
+    columns:
+      - name: opportunity_id
+        data_tests: [unique, not_null]
+      - name: segment
+        data_tests:
+          - accepted_values:
+              values: ["SMB", "Mid-Market", "Enterprise"]
+
+  - name: mart_rep_attainment
+    description: Quota attainment per rep per fiscal quarter (RevOps performance mart).
+    columns:
+      - name: quota_attainment
+        description: won_amount / quota_amount for the rep-quarter.
+        data_tests: [not_null]
+      - name: win_rate
+        data_tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 1
+
+  - name: mart_pipeline_funnel
+    description: Conversion and pipeline health by segment and lead source.
+    columns:
+      - name: win_rate
+        data_tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 1
